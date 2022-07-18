@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- import bootstrap full CSS -->
+  <link href="./css/style.css" rel="stylesheet">
+  <title>ClimateCorps | Home</title>
+</head>
+
+<!-- fixed header starts here, all pages must begin with the following code. DO NOT CHANGE -->
+
+<body id="bodydiv">
+
+  <!-- FIXED APPLICATION NOTIFICATION -->
+  <a href="./application/index.html">
+    <div id="tiptop">
+      <em>!!! ClimateCorps is now accepting applications for '22/'23. Click to apply</em>
+    </div>
+  </a>
+
+  <!-- NAV BAR -->
+
+
+  <!-- LOGIN LINKS IN UPPER RIGHT CORNER -->
+
+  <div id="nav-bar">
+    <div class="align-right">
+      <a href="#" id="linkage">Log In</a>&nbsp;&nbsp;|&nbsp;
+      <a href="#" id="linkage">Sign Up</a>
+    </div>
+    <br>
+
+    <div id="navlinks" class="navrow">
+      <a href="./index.html"><img src="./cclogoleaf2small.png" class="logoimg" id="navlogo"></a>
+      <a href="./index.html" class="navmain">Home</a>
+      <a href="#sectionfour" class="navmain">About</a>
+      <a href="#sectionfive" class="navmain">Programs</a>
+      <a href="#" class="navmain donate" id="myBtn">Donate</a>
+
+    </div>
+  </div>
+
+  <!-- END NAV BAR -->
+
+
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <div class="modal-header">
+        <span class="close">&times;</span>
+        <h2>ClimateCorps - Get Involved</h2>
+      </div>
+  
+
+      <form action="/action_page.php">
+        <div class="container2">
+          <h2 class="title-green" id="modalsubtext">DONATE.</h2>
+          <p>Thanks for your interest in ClimateCorps! Please fill out this form to create an account.</p>
+          <hr>
+
+          <label class="labelform" for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" id="email" required>
+
+          <label class="labelform" for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" id="psw" required>
+
+          <label class="labelform" for="psw-repeat"><b>Repeat Password</b></label>
+          <input type="password" placeholder="Repeat Password" name="psw-repeat" id="psw-repeat" required>
+          <hr>
+          <p>Already have an account? <a href="#">Sign in</a>.</p>
+
+          <button type="submit" class="btn">Register</button>
+
+        </div>
+        <br>
+      </form>
+
+      <div class="modal-footer">
+        &copy; 2021 ClimateCorps. All rights reserved.<br>
+        <a href="#" id="linkage">Privacy Policy</a> - <a href="#" id="linkage">Terms and Conditions</a>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- FOR OTHER PAGES START CODING HERE! -->
+  <section id="welcome-section">
+
+    <video id="myvideo" autoplay muted>
+      <!-- <video width="100%" height="100%" autoplay muted> -->
+      <source src="./bigvid.mp4" type="video/mp4">
+    </video>
+    <div id="overlay">
+      <img src="./cclogoleaf2blk.png" id="biglogo">
+      <br><br><a href="./application/index.html">
+        <button id="mybtn" class="btn" onclick=myFunc2()>Apply Now</button></a></div>
+    <br><br><br>
+
+  </section>
+  <br><br><br>
+
+
+  <!-- 3 COLUMN TAGLINE GRID LAYOUT-->
+  <div id="eppdiv">
+    <br>
+    <hr class="myhr">
+    <br>
+
+    <div id="tagline" class="container">
+
+      <div id="empowercol" class="item1">
+        <p class="title" id="etitle">Empower&nbsp;<button id="empowerbtn" class="epp-btn">&#9538;</button></p>
+
+        <div id="empowertxt">
+          <p class="epptxt">
+            ClimateCorps believes that sustainable workforce perpetuates a sustainable planet. Climate conservation is a
+            complex issue, and mitigating this crisis demands all-hands on deck. <br><br>We empower current and future
+            generations of humanity to make an impact and create a more sustainable world.<br><br>
+            We believe in the power of human resources.<br></p>
+        </div>
+
+      </div>
+      <div id="preservecol" class="item2">
+        <p class="title">Preserve&nbsp;<button id="preservebtn" class="epp-btn">&#9538;</button></p>
+
+        <div id="preservetxt">
+          <p class="epptxt">
+            The industrial revolution and increasing globalization have had dire ramifications for our shared
+            planet.<br><br>Many of today's companies are working alongside engineers, scientists, and researchers to
+            combat climate change and reverse this crisis. <br><br>ClimateCorps alumni go on to serve some of the
+            largest and most sustainable organizations in the world.</p>
+        </div>
+
+
+      </div>
+      <div id="protectcol" class="item3">
+        <p class="title">Protect&nbsp;<button id="protectbtn" class="epp-btn">&#9538;</button></p>
+
+        <div id="protecttxt">
+          <p class="epptxt2">
+            Protecting our planet for future generations and their posterity is everyone's responsiblity.<br><br>So much
+            damage has already been done, but ClimateCorps believes that the same industrial and technological advances
+            that got us into this mess can help us transcend this crisis. <br><br>It's time to roll up our sleeves, grab
+            a shovel or a or a test tube, and get to work!
+          </p>
+        </div>
+
+      </div>
+    </div>
+
+    <br>
+    <hr class="myhr">
+    <br>
+  </div>
+
+
+  <section id="sectiontwo">
+    <center>
+
+
+      <!-- STYLED NEW TEXT AND COLOR -->
+      <div id="calloutquote1" class="mycallouts">
+        <p class="callout-text" id="cot1a">Solar panel installers </p>
+        <p class="callout" id="co1">
+          50%<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          job growth</p>
+        <p class="callout-text" id="cot1b">and enviornmental engineers</p>
+      </div><br>
+
+      <div id="calloutquote2" class="mycallouts">
+        <p class="callout-text" id="cot2a">Starting salaries</p>
+        <p class="callout" id="co2">
+          45,000-<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          120,000</p>
+        <p class="callout-text" id="cot2b">annually for entry level</p>
+      </div><br>
+
+      <div id="calloutquote3" class="mycallouts">
+        <p class="callout-text" id="cot3a">Begin your career</p>
+        <p class="callout" id="co3">
+          Apply<br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          Today</p>
+        <p class="callout-text" id="cot3b">to start making a difference.</p>
+
+      </div>
+
+      <br><br>
+
+    </center>
+
+  </section>
+
+
+</div>
+  <div id="triangle1" class="triangle-right">
+  </div>
+
+<!-- STYLED CHANGED TEXT AND COLORS -->
+  <div id="mission">
+    <img src="./heartplant.jpg" id="missionimg">
+    <p id="missiontitle">OUR MISSION.</p>
+  </div>
+  <p id="missiontxt"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Preserving the planet is everyone's responsibility. Our
+      mission is to bring exceptional people together from all walks of life to ensure a more sustainable future for
+      subsequent generations.</em></p>
+  </div>
+
+
+  <!-- <br><br><br> -->
+  <section id="sectionthree">
+
+
+    <div id="triangle2" class="triangle-left">
+    </div>
+
+
+    <!-- section three -->
+  </section>
+
+
+  <!-- LOPEZ SECTION START  -->
+  <div id="howto">
+    <div id="triangle3" class="triangle-right">
+    </div>
+    <img src="./sciencelady.jpg" id="howtoimg">
+  </div>
+  <p id="howtotitle">HOW WE'LL GET THERE.</p>
+  <p id="howtotxt"><em>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We empower current and future generations of humanity by
+      providing career placement and training oppportuinities focusing on creating a more sustainable future for
+      everyone.</em></p>
+  </div>
+
+  <!-- LOPEZ SECTION END -->
+
+  <br><br><br>
+
+
+  <br>
+  <hr class="myhr">
+  <br>
+  <section id="sectionfour">
+
+    <p class="title-green">OUR FOCUS.</p>
+    <p class="txt-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Climate conservation is a complex issue.
+      At ClimateCorps, we aim for the highest point of contribution by focusing efforts on five key areas:</p>
+    <center>
+      <p>
+        Zero Waste<br>
+        Clean Water<br>
+        Critical Education<br>
+        Renewable Energy<br>
+        Community Organizing</p>
+    </center>
+    <!-- <br><br><a href="#tiptop" class="backtotop"><span style="color: red">&#8598;</span> back to top</a><br><br> -->
+
+    <a href="#tiptop" class="backtotop"><img src="leaficon2.png" width="20px" id="iconlogo"> back to top</a>
+
+
+
+
+    <!-- SECTION FIVE -->
+
+    <br><br><br>
+  </section>
+
+
+  <!-- open section -->
+
+  <div id="opensection">
+
+    <div id="triangle4" class="triangle-right">
+    </div>
+
+  </div>
+
+
+  <br><br>
+
+
+  <div id="joinsection">
+
+    <!-- join section  -->
+
+    <div id="testy">
+      <div id="testquote"><em>"ClimateCorps changed everything. I went from being a single parent working a dead-end job
+          to having a fulfilling, meaningful career that makes the world a better place, makes me a better person, and -
+          most importantly - makes me the type of role model my daughter can be proud of."</em></div>
+      <div id="testname">Stephanie A. Halverson, San Jose, CA</div>
+      <img src="./momreading.jpg" id="testpic">
+
+    </div>
+
+
+
+
+  </div>
+
+  <div id="triangle5" class="triangle-left">
+  </div>
+
+
+
+  <section id="sectionfive">
+
+    <img src="officepeople.jpg" id="sectionfiveimg">
+    <p class="title-green">OUR PROGRAMS.</p>
+    <p class="txt-primary">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Voluptates provident ut temporibus officia similique nostrum reiciendis ex explicabo corrupti?</p>
+    <br>
+
+    <div id="mybuttons">
+      <a href="./application/index.html"><button id="mybtn2" class="btn">Apply Now</button></a> <button id="myDonateBtn"
+        class="btn">Donate</button></div>
+    <br><br>
+    <a href="#tiptop" class="backtotop"><img src="leaficon2.png" width="20px" id="iconlogo"> back to top</a>
+    <br>
+  </section>
+  <br><br>
+
+
+  <!-- <div id ="playwithjq">
+<div id="playarea1" class="playareas">
+<h1 id ="header1" class="playheader">header 1</h1>
+<p id="text1" class="playtext"><span style="color: red" class="playspan">+</span>text 1</p>
+</div>
+
+<div id="playarea2" class="playareas">
+    <h1 id ="header2" class="playheader">header 2</h1>
+<p id="text2" class="playtext"><span style="color: red" class="playspan">+</span>text 2</p>
+</div>
+
+<div id="playarea2" class="playareas">
+<h1 id ="header3" class="playheader">header 3</h1>
+<p id="text3" class="playtext"><span id="redtext">+</span><br>text 3</p>
+</div>
+  </div> -->
+
+  <div id="triangle7" class="triangle-left">
+  </div>
+
+  <br><br>
+
+
+
+  <!-- FOOTER. DO NOT CHANGE -->
+  <footer>
+    &copy; 2021 ClimateCorps. All rights reserved.<br>
+    <a href="#" id="linkage">Privacy Policy</a> - <a href="#" id="linkage">Terms and Conditions</a></footer>
+
+  <!-- end here  -->
+
+
+
+
+
+
+
+
+  <!-- import jquery -->
+  <script type="text/javascript" src="./js/jquery.js"></script>
+
+  <!-- import D3.js -->
+  <script type="text/javascript" src="./js/d3.js"></script>
+  <script type="text/javascript" src="./script.js"></script>
+
+</body>
+
+</html>
